@@ -1,10 +1,10 @@
 ## 1.1 Latar Belakang
-
-Latar belakang saya membuat game ular ialah karna waktu saya kecil, saya sangat suka dengan game yang namanya snake xenzia, dan seiring berjalannya waktu, saya ingin mempelajari bagaimana proses pembuatan game snake tersebut
+Game ini bernama GetCoin, game ini diciptakan karna saya ingin menuangkan isi pikiran saya tentang seorang pencari koin menggunakan gerobak. Di dalam game tersebut, si petani coin ini berkeliling hutan untuk mencari koin, demi keberlangsungan hidupnya yang memiliki keterbatasan dalam hal ekonomi.
 
 ## 1.2. Deksripsi Teknologi Informasi
-Snake adalah nama umum untuk konsep permainan video dimana pemain mengendalikan sebuah garis yang tumbuh memanjang, dengan garis itu sendiri menjadi rintangan utama. Konsep tersebut bermula pada permainan arkade 1976 Blockade, dan kemudian membuat Snake menjadi memiliki ratusan versi (beberapa diantaranya memakai kata snake (ular) atau worm (ulat) pada judulnya) untuk beberapa wadah
-
+GetCoin adalah sebuah game yang bertemakan sebuah cerita yang dimana ada tokohnya, bisa kita sebut Petani KOIN. Petani koin ini hidup disebuah tempat yang jauh dari keramaian, beliau tinggal di dekat hutan. 
+Petani koin ini memiliki sebuah kesulitan di bidang ekonomi, dahulunya beliau hanya seorang pencari bahan makanan di hutan untuk keberlangsungan hidupnya. Dan pada suatu hari, ketika beliau sedang mencari bahan makanan, tiba-tiba beliau ini menemukan segumpalan koin yang sangat berkilau, lalu beliau menghampirinya, dan mengambilnya. Akhirnya beliau membawa koin ini ke rumah beliau.
+Pada esok harinya, beliau pergi ke hutan untuk mencari koin tersebut, apakah masih ada atau tidak, petani koin ini berusaha mencari koin tersebut dengan mengelilingi seluruh tempat yang ada dihutan tersebut, disinilah saya ingin menggambarkan kisah petani koin itu kedalam sebuah game yang berjudul GetCoin
 ## 1.3. Branding
 
 game yang bernama Snake Game,
