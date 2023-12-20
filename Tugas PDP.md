@@ -6,14 +6,22 @@ GetCoin adalah sebuah game yang bertemakan sebuah cerita yang dimana ada tokohny
 Petani koin ini memiliki sebuah kesulitan di bidang ekonomi, dahulunya beliau hanya seorang pencari bahan makanan di hutan untuk keberlangsungan hidupnya. Dan pada suatu hari, ketika beliau sedang mencari bahan makanan, tiba-tiba beliau ini menemukan segumpalan koin yang sangat berkilau, lalu beliau menghampirinya, dan mengambilnya. Akhirnya beliau membawa koin ini ke rumah beliau.
 Pada esok harinya, beliau pergi ke hutan untuk mencari koin tersebut, apakah masih ada atau tidak, petani koin ini berusaha mencari koin tersebut dengan mengelilingi seluruh tempat yang ada dihutan tersebut, disinilah saya ingin menggambarkan kisah petani koin itu kedalam sebuah game yang berjudul GetCoin
 ## 1.3. Branding
-
-game yang bernama Snake Game,
+- Merek              : Get Coin
+- Tagline            : Coin is My Life
+- Kampanye           : Sebuah aplikasi game guna menjadi sebuah sarana hiburan
+- Pengguna Sasaran   : Usia 9+
+- Tema UI/UX         : Sederhana
 
 ## 2. User Story
 
 Sebagai | Saya Ingin | Agar | Priority
 ---|---|---|---
-User | Ularnya bisa bergerak | bisa makan supaya bisa panjang | ⭐⭐⭐⭐⭐
+User | Petani bisa bergerak | bisa menjelajahi hutan | ⭐⭐⭐⭐⭐
+User | Petani bisa mengumpulkan koin | bisa menjadi kaya | ⭐⭐⭐⭐⭐
+User | Petani bisa membawa gerobak | bisa mengumpulkan koin | ⭐⭐⭐⭐⭐
+User | Game ini ada fitur multiplayer | bisa bermain bersama teman disatu aplikasi | ⭐⭐⭐⭐⭐
+Develop | Membuat berbagai macam map | tidak merasa bosan dengan satu map | ⭐⭐⭐⭐
+Develop | Membuat tambahan fitur dan tampilan yang bagus | bisa membuat nyaman para user | ⭐⭐⭐⭐⭐
 
 ## 3. Struktur Data
 
