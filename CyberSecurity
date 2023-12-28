@@ -1,1 +1,48 @@
 
+import java.util.Scanner;
+
+public class CyberSecurityApp {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Selamat datang di Aplikasi Keamanan Cyber!");
+        System.out.println("Silahkan masukkan kata sandi anda!");
+        String password = scanner.nextLine();
+
+        if (validatePassword(password)) {
+            System.out.println("Kata sandi anda valid. Akses diberikan!");
+
+        } else {
+            System.out.println("Kata sandi anda tidak valid. Akses ditolak!");
+        }
+
+        scanner.close();
+    }
+
+    public static boolean validatePassword(String password) {
+        // Logika validasi kata sandi
+        // Misalnya, kata sandi harus memiliki panjang minimal 8 karakter,
+        // mengandung setidaknya satu huruf besar, satu huruf kecil, dan satu angka.
+        // Anda dapat menyesuaikan logika validasi sesuai kebutuhan.
+
+        if (password.length() < 8) {
+            return false;
+        }
+
+        boolean hasUpperCase = false;
+        boolean hasLowerCase = false;
+        boolean hasDigit = false;
+
+        for (char c : password.toCharArray()) {
+            if (Character.isUpperCase(c)) {
+                hasUpperCase = true;
+            } else if (Character.isLowerCase(c)) {
+                hasLowerCase = true;
+            } else if (Character.isDigit(c)) {
+                hasDigit = true;
+            }
+        }
+
+        return hasUpperCase && hasLowerCase && hasDigit;
+    }
+}
