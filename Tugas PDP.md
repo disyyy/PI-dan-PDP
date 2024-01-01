@@ -26,11 +26,12 @@ Develop | Membuat tambahan fitur dan tampilan yang bagus | bisa membuat nyaman p
 ## 3. Struktur Data
 
 ---
-title: Get Coin User
+title: Order example
 ---
 erDiagram
-    Character ||--o{ Walking : places
-    Walking ||--o{ Jump : places
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 
 ## 4. Arsitektur Sistem
 
