@@ -1,10 +1,10 @@
 ## 1.1 Latar Belakang
-Game ini bernama GetCoin, game ini diciptakan karna saya ingin menuangkan isi pikiran saya tentang seorang pencari koin menggunakan gerobak. Di dalam game tersebut, si petani coin ini berkeliling hutan untuk mencari koin, demi keberlangsungan hidupnya yang memiliki keterbatasan dalam hal ekonomi.
+Game ini bernama GetCoin, game ini diciptakan karna saya ingin menuangkan isi pikiran saya tentang seorang petani yang sedang menggarap kebunnya di sekitaran hutan. Di dalam game tersebut, petani ini menemukan segumpalan koin ketika dia pergi kehutan, tak lama kemudian, petani tersebut berfikir untuk mencari koin tersebut di dalam hutan yang penuh dengan jebakan.
 
 ## 1.2. Deksripsi Teknologi Informasi
-GetCoin adalah sebuah game yang bertemakan sebuah cerita yang dimana ada tokohnya, bisa kita sebut Petani KOIN. Petani koin ini hidup disebuah tempat yang jauh dari keramaian, beliau tinggal di dekat hutan. 
-Petani koin ini memiliki sebuah kesulitan di bidang ekonomi, dahulunya beliau hanya seorang pencari bahan makanan di hutan untuk keberlangsungan hidupnya. Dan pada suatu hari, ketika beliau sedang mencari bahan makanan, tiba-tiba beliau ini menemukan segumpalan koin yang sangat berkilau, lalu beliau menghampirinya, dan mengambilnya. Akhirnya beliau membawa koin ini ke rumah beliau.
-Pada esok harinya, beliau pergi ke hutan untuk mencari koin tersebut, apakah masih ada atau tidak, petani koin ini berusaha mencari koin tersebut dengan mengelilingi seluruh tempat yang ada dihutan tersebut, disinilah saya ingin menggambarkan kisah petani koin itu kedalam sebuah game yang berjudul GetCoin
+GetCoin adalah sebuah game yang bertemakan sebuah cerita yang dimana ada tokohnya, bisa kita sebut Petani. Petani ini hidup disebuah tempat yang jauh dari keramaian, beliau tinggal di dekat hutan. 
+Petani ini memiliki kesibukannya sehari-hari yaitu berkebun di hutan. Dan pada suatu hari, ketika beliau sedang menggarap sebuah tanaman, tiba-tiba beliau ini menemukan segumpalan koin yang sangat berkilau, lalu beliau menghampirinya, dan mengambilnya. Akhirnya beliau membawa koin ini ke rumah beliau.
+Pada esok harinya, beliau pergi ke hutan untuk mencari koin tersebut, apakah masih ada atau tidak, petani ini berusaha mencari koin tersebut dengan mengelilingi seluruh tempat yang ada dihutan tersebut dengan melewati rintangan-rintangan yang begitu berbahaya yang dilakukan oleh pihak-pihak yang tidak bertanggung jawab. disinilah saya ingin menggambarkan kisah petani itu kedalam sebuah game yang berjudul GetCoin
 ## 1.3. Branding
 - Merek              : Get Coin
 - Tagline            : Coin is My Life
@@ -17,21 +17,20 @@ Pada esok harinya, beliau pergi ke hutan untuk mencari koin tersebut, apakah mas
 Sebagai | Saya Ingin | Agar | Priority
 ---|---|---|---
 User | Petani bisa bergerak | bisa menjelajahi hutan | ⭐⭐⭐⭐⭐
-User | Petani bisa mengumpulkan koin | bisa menjadi kaya | ⭐⭐⭐⭐⭐
-User | Petani bisa membawa gerobak | bisa mengumpulkan koin | ⭐⭐⭐⭐⭐
+User | Petani bisa melewati rintangan | bisa melanjutkan perjalanannya | ⭐⭐⭐⭐⭐
+User | Petani bisa membawa alat kebun | untuk melindungi diri | ⭐⭐⭐⭐⭐
 User | Game ini ada fitur multiplayer | bisa bermain bersama teman disatu aplikasi | ⭐⭐⭐⭐⭐
 Develop | Membuat berbagai macam map | tidak merasa bosan dengan satu map | ⭐⭐⭐⭐
 Develop | Membuat tambahan fitur dan tampilan yang bagus | bisa membuat nyaman para user | ⭐⭐⭐⭐⭐
 
 ## 3. Struktur Data
 
-Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
-
-```mermaid
+---
+title: Get Coin User
+---
 erDiagram
-    RUJAK ||--o{ SAYUR : tersusun
-    PEMBELI ||--|{ RUJAK : beli
-```
+    Character ||--o{ Walking : places
+    Walking ||--o{ Jump : places
 
 ## 4. Arsitektur Sistem
 
@@ -39,7 +38,7 @@ Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/synta
 
 ## 5. Teknologi, Library, dan Framework
 
-Saya membuat game ini dengan device Lenovo dengan processor intel core I5 Gen 10 , SSD 512GB dengan grapics nvidia. Saya membuat game ini menggunakan bahasa Java dengan Framework Eclipse ID.
+Saya membuat game ini dengan device Lenovo dengan processor intel core I5 Gen 10 , SSD 512GB dengan grapics nvidia. Saya membuat game ini menggunakan HTML, CSS, dan JavaScript dengan Visual Studio Code.
 Library yang saya gunakan untuk membuat game ini ialah :
 1. java.awt
 2. java.awt.event
