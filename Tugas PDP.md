@@ -24,14 +24,13 @@ Develop | Membuat berbagai macam map | tidak merasa bosan dengan satu map | ⭐�
 Develop | Membuat tambahan fitur dan tampilan yang bagus | bisa membuat nyaman para user | ⭐⭐⭐⭐⭐
 
 ## 3. Struktur Data
-
----
-title: Order example
----
-erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+'''mermaid
+graph TD
+    subgraph GetCoin USER
+        A[CHARACTER]
+        B[WALKING]
+        C[JUMP]
+    end
 
 ## 4. Arsitektur Sistem
 
