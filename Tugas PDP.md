@@ -48,7 +48,8 @@ Library yang saya gunakan untuk membuat game ini ialah :
 
 ## 6. Desain User Experience dan User Interface
 
- <img width="458" alt="Screenshot 2023-10-25 234214" src="https://github.com/disyyy/syafiqalbariii/assets/148996770/c301925c-6130-4d21-968c-4b793680000a">
+ <img width="960" alt="Screenshot 2024-01-02 134723" src="https://github.com/disyyy/syafiqalbariii/assets/148996770/5a583fd1-048d-43f0-ab32-00943e2e3fb6">
+48996770/c301925c-6130-4d21-968c-4b793680000a">
 
 
 ## 7. Demonstrasi Video
