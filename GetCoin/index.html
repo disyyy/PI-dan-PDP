@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get Coin</title>
+    <link rel="stylesheet" type="text/css" href="style.css"
+</head>
+<body>
+
+    <h2>Get Coin</h2>
+    <h3>Score : <span id="score">0</span></h3>
+    <div id="board" style="background-position:0px;">
+
+        <div id="area">
+            <div id="petani"></div>
+            <div id="box" style="margin-Left: 600px"></div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        var isMoving = true;
+        function setBackgroundMoving() {
+            if(isMoving == true){
+                setTimeout(function() {
+                //background berjalan
+                var bg = document.getElementById('board');
+                bg.style.backgroundPosition = (parseInt(bg.style.backgroundPosition.replace('px', '')) -1) + 'px';
+                // update live score
+                document.getElementById('score').innerHTML = 
+                parseInt(document.getElementById('score').innerHTML)+1;
+                // panggil fungsinya terus menerus (recursive)
+                setBackgroundMoving();
+                },5);
+            }
+        }
+        //inisialisasi fungsi background berjalan
+        setBackgroundMoving();
+
+        function setBoxMoving() {
+            var box = document.getElementById('box'),
+                petani = document.getElementById('petani');
+            setTimeout(function() {
+              
+            box.style.marginLeft = (parseInt(box.style.marginLeft.replace('px','')) - 1) + 'px';
+
+            if(parseInt(box.style.marginLeft.replace('px','')) < -100){
+                box.style.marginLeft = "600px"
+            }
+            if(petani.offsetTop + 50 >= box.offsetTop && petani.offsetLeft +50 >= box.offsetLeft && petani.offsetTop + 50 <= box.offsetTop + 50 && petani.offsetLeft <= box.offsetLeft + 50) {
+                alert("Game Over , Score anda:" + document.getElementById("score").innerHTML);
+                petani.setAttribute('class','freeze');
+                isMoving = false;
+            }else{
+                 // panggil fungsinya terus menerus (recursive)
+                setBoxMoving();
+            }
+           
+            },5);
+
+        }
+        //inisialisasi box bergerak
+        setBoxMoving();
+
+
+        window.addEventListener('keyup' , function(e) {
+            // untuk mendeteksi tombol spasi
+            if(e.keyCode == 32) {
+                //settingan petani loncat
+                document.getElementById('petani').style.marginTop = "25px";
+                //kembali kedarat
+                setTimeout(function() {
+                    document.getElementById('petani').style.marginTop = "200px";
+                },1000);
+            }
+        });
+    </script>
+        
+</body>
+</html>
