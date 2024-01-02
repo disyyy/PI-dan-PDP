@@ -25,11 +25,29 @@ Develop | Membuat tambahan fitur dan tampilan yang bagus | bisa membuat nyaman p
 
 ## 3. Struktur Data
 ```mermaid
-erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|--|{ DELIVERY-ADDRESS : uses
-    DELIVERY-ADDRESS }|--|| ZIPCODE : has
+graph TD
+    subgraph Get Coin User
+        A[Karakter]
+        B[Melompat]
+        C[Berjalan]
+        D[Menabrak]
+    end
+
+
+    subgraph Get Coin Database
+        E[Posisi]
+        F[Kecepatan]
+        G[Skor]
+        H[Map]
+    end
+
+    A --> B
+    B --> E
+    C --> A
+    C --> D
+    D --> B
+    E --> F --> G
+
 ```
 
 
