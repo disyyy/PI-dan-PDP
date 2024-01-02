@@ -27,10 +27,10 @@ Develop | Membuat tambahan fitur dan tampilan yang bagus | bisa membuat nyaman p
 ```mermaid
 graph TD
     subgraph Get Coin User
-        A[Karakter]
-        B[Melompat]
-        C[Berjalan]
-        D[Menabrak]
+        A[Berjalan]
+        B[Menabrak]
+        C[Karakter]
+        D[Melompat]
     end
 
 
