@@ -40,11 +40,7 @@ Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/synta
 ## 5. Teknologi, Library, dan Framework
 
 Saya membuat game ini dengan device Lenovo dengan processor intel core I5 Gen 10 , SSD 512GB dengan grapics nvidia. Saya membuat game ini menggunakan HTML, CSS, dan JavaScript dengan Visual Studio Code.
-Library yang saya gunakan untuk membuat game ini ialah :
-1. java.awt
-2. java.awt.event
-3. javax.swing
-4. java.util.random
+
 
 ## 6. Desain User Experience dan User Interface
 
