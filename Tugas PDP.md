@@ -92,4 +92,3 @@ Dan juga ada CSS, bisa digunakan untuk mengubah teks, tampilan background, trans
 
 ## 11. Bagaimana database / sistem basis data berperan dalam produk teknologi informasimu ?
 Dalam game Get Coin, penggunaan database memungkinkan pengembang untuk menyimpan dan mengelola data pemain, skor, dan lainnya. Ini memberikan fleksibiltas, personalisasi, dan fitur-fitur yang meningkatkan pengalaman bermain pemain.
-Link youtube nya di detik jawaban ini
