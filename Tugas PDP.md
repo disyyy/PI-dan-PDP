@@ -72,8 +72,7 @@ Saya membuat game ini menggunakan HTML, CSS, dan JavaScript dengan Visual Studio
 
 
 ## 7. Demonstrasi Video
-
-Link youtube nya
+[https://drive.google.com/drive/folders/1trqRePTkG93q07PkjlehONNdeb2a8CCM](https://drive.google.com/drive/folders/1trqRePTkG93q07PkjlehONNdeb2a8CCM)
 
 ## 8. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
 
