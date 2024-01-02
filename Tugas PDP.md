@@ -46,8 +46,7 @@ graph TD
     C --> A
     C --> D
     D --> B
-    E --> F
-    G --> H
+    E --> F --> G --> H
 
 ```
 
